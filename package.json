@@ -1,6 +1,6 @@
 {
-  "name": "vue-float-action-button",
-  "version": "0.6.5",
+  "name": "vue-float-action-button-jonny",
+  "version": "0.0.1",
   "description": "vue, float action button",
   "main": "dist/vue-fab.js",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/a62527776a/vue-floating-action-button.git"
+    "url": "git+https://github.com/Luffy-D-Monkey/vue-floating-action-button.git"
   },
   "keywords": [
     "vue",
@@ -22,12 +22,10 @@
   "publishConfig": {
     "access": "public"
   },
-  "author": "chenyu <a13868300128a@gmail.com>",
+  "author": "Jonny.Huang <joojoonny@163.com>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/a62527776a/vue-floating-action-button/issues"
-  },
-  "homepage": "https://github.com/a62527776a/vue-floating-action-button#readme",
+
+  "homepage": "https://github.com/Luffy-D-Monkey/vue-floating-action-button.git#readme",
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.0.0-rc.1",
     "babel": "^6.23.0",
