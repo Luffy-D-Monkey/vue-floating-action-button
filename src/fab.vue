@@ -1,5 +1,5 @@
 <template>
-  <div ref="fab" class="fab-main-container">
+  <div ref="fab" class="fab-main-container" :style="'right:'+right+';'">
     <transition :name="'fab-' + fabAutoHideAnimateModel">
       <fab-cantainer
           @click.native="openMenu"
@@ -40,6 +40,10 @@ import handleClass from './util'
 export default {
   name: 'vue-fab',
   props: {
+    right: {
+      type: String,
+      default: '10%',
+    },
     icon: {
       type: String,
       default: 'add'
@@ -310,7 +314,7 @@ export default {
   }
   .fab-main-container {
     position: fixed;
-    right: 20%;
+    right: 10%;
     z-index: 9999;
     bottom: 10%;
     overflow: initial;
